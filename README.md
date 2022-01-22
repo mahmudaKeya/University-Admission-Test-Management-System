@@ -7,7 +7,7 @@ This repository uses Java, SpringBoot and PostgreSQL.
 Link: http://localhost:8080/api/v1/students  
 
 POST: http://localhost:8080/api/v1/students Add a new students information  
-Sample JSON for this request: { "id": "1", "name": "Rebeca", "email": "rebeca.jamal@gmail.com", "dob": "2000-01-05", "age": "21"} }  
+Sample JSON for this request: { "id": 1, "name": "Rebeca", "email": "rebeca.jamal@gmail.com", "dob": "2000-01-05", "age": "21"} }  
 GET: http://localhost:8080/api/v1/students/{id}: Get student by id  
 DELETE: http://localhost:8080/api/v1/students/{id}: Delete student by id  
 PUT: http://localhost:8080/api/v1/students/{id}: Update student by id  
