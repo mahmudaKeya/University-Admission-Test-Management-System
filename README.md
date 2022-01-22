@@ -15,9 +15,9 @@ POST: http://localhost:8080/api/v1/students: Posting new Information
 Sample JSON for this request: { "name": "Bilal", "email": "bilal.ahmed@gmail.com", "dob": "1995-12-17"}  
 
 The code  
-In this repository to use PostgreSQL in Java, it is necessary to add some dependencies.  
+In this repository to use PostgreSQL in Java.  
 
-Dependencies (pom.xml file)  
+application.properties    
 spring.jpa.hibernate.ddl-auto=create-drop  
 spring.jpa.show-sql=true  
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
