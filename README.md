@@ -17,9 +17,9 @@ The code
 In this repository to use PostgreSQL in Java, it is necessary to add some dependencies.
 
 Dependencies (pom.xml file)
-spring.jpa.hibernate.ddl-auto=create-drop
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.hibernate.ddl-auto=create-drop  
+spring.jpa.show-sql=true  
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
+spring.jpa.properties.hibernate.format_sql=true  
 
 server.error.include-message = always
