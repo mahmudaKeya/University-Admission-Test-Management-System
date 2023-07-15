@@ -2,7 +2,7 @@
 A Spring Boot Project
 
 University Admission Test Management System.  Java Spring Boot  
-This repository uses Java, SpringBoot and PostgreSQL.  
+This repository uses Java, SpringBoot and MySQL.  
 
 Link: http://localhost:8080/api/v1/students  
 
@@ -15,7 +15,7 @@ POST: http://localhost:8080/api/v1/students: Posting new Information
 Sample JSON for this request: { "name": "Bilal", "email": "bilal.ahmed@gmail.com", "dob": "1995-12-17"}  
 
 The code  
-In this repository to use PostgreSQL in Java.  
+In this repository to use MySQL in Java.  
 
 application.properties    
 spring.jpa.hibernate.ddl-auto=create-drop  
